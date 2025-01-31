@@ -16,7 +16,7 @@ function exibitTexto(tag, texto) {
 
 
 exibitTexto('h1', 'Jogo do número secreto');
-exibitTexto('p', 'Escolha um número entre 1 a 100');
+exibitTexto('p', 'Escolha um número entre 1 a 1000');
 
 
 
@@ -59,7 +59,7 @@ function reiniciarJogo() {
 }
 
 function gerarNumeroAleatorio() {
-    return parseInt(Math.random() * 100 + 1);
+    return parseInt(Math.random() * 1000 + 1);
 
 }
 
